@@ -34,5 +34,40 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func three(_ sender: Any) {
+        let alertController = UIAlertController(title: "冬月十七",
+        message: nil, preferredStyle: .alert)
+        self.present(alertController, animated: true, completion: nil)
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2)
+        {self.presentedViewController?.dismiss(animated: false, completion: nil)
+        }
+    }
+    
+    @IBAction func four(_ sender: Any) {
+        let alertController = UIAlertController(title: "冬月十八",
+        message: nil, preferredStyle: .alert)
+        self.present(alertController, animated: true, completion: nil)
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2)
+        {self.presentedViewController?.dismiss(animated: false, completion: nil)
+        }
+    }
+    
+    @IBAction func five(_ sender: Any) {
+        let alertController = UIAlertController(title: "冬月十九",
+        message: nil, preferredStyle: .alert)
+        self.present(alertController, animated: true, completion: nil)
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2)
+        {self.presentedViewController?.dismiss(animated: false, completion: nil)
+        }
+    }
+    
+    @IBAction func six(_ sender: Any) {
+        let alertController = UIAlertController(title: "冬月二十",
+        message: nil, preferredStyle: .alert)
+        self.present(alertController, animated: true, completion: nil)
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2)
+        {self.presentedViewController?.dismiss(animated: false, completion: nil)
+        }
+    }
 }
 
